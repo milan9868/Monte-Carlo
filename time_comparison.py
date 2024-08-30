@@ -5,11 +5,11 @@ def foo(x):
     if x <= 0.5:
         if random.choice([0,1]) == 0:
             return 0
-        return foo(x+x/2)
+        return foo(x+x)
     else:
         if random.choice([0,1]) == 1:
             return 1
-        return foo(x-x/2)
+        return foo(x+x-1)
 
 def foo_iter(x):
     while True:
@@ -17,12 +17,12 @@ def foo_iter(x):
             if random.choice([0,1]) == 0:
                 return 0
             else:
-                x = x + x/2
+                x = 2*x
         else:
             if random.choice([0,1]) == 1:
                 return 1
             else:
-                x = x - x/2
+                x = 2*x - 1
 
 def benchmark(func, iterations=1000000):
     counter_0 = 0
