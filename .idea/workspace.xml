@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d4c02c1-3402-4049-b3a1-dff1e21e8fe3" name="Changes" comment="mmmmmonte">
-      <change afterPath="$PROJECT_DIR$/time_comparison.py" afterDir="false" />
+    <list default="true" id="0d4c02c1-3402-4049-b3a1-dff1e21e8fe3" name="Changes" comment="corrected logic">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mc.py" beforeDir="false" afterPath="$PROJECT_DIR$/mc.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,11 +76,29 @@
       <option name="project" value="LOCAL" />
       <updated>1725049492701</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added time comparison with the help of claude">
+      <option name="closed" value="true" />
+      <created>1725049921219</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1725049921219</updated>
+    </task>
+    <task id="LOCAL-00003" summary="corrected logic">
+      <option name="closed" value="true" />
+      <created>1725051132366</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1725051132367</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="mmmmmonte" />
-    <option name="LAST_COMMIT_MESSAGE" value="mmmmmonte" />
+    <MESSAGE value="added time comparison with the help of claude" />
+    <MESSAGE value="corrected logic" />
+    <option name="LAST_COMMIT_MESSAGE" value="corrected logic" />
   </component>
 </project>
